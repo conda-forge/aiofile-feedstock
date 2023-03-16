@@ -1,5 +1,5 @@
 {% set name = "aiofile" %}
-{% set version = "3.8.1" %}
+{% set version = "3.8.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiofile-{{ version }}.tar.gz
-  sha256: 1623b98d88fbd16bbd2808d010de4e185a700e950ed3f17455dd851aa2455f40
+  sha256: 0eceac86711a1d610fca1d65876e8f2ef6b0a5758d6aeddd089e966b584d2052
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - caio >=0.9.0,<10
+    - caio >=0.9.0,<0.10.dev0
     # Conda version of ~=0.9.0
     - python >=3.7
 
