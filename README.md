@@ -1,11 +1,11 @@
-About aiofile
-=============
+About aiofile-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aiofile-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/mosquito/aiofile
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aiofile-feedstock/blob/main/LICENSE.txt)
 
 Summary: Asynchronous file operations.
 
