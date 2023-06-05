@@ -1,5 +1,5 @@
 {% set name = "aiofile" %}
-{% set version = "3.8.5" %}
+{% set version = "3.8.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiofile-{{ version }}.tar.gz
-  sha256: bb1ca0b2c4ef3b78f5012a2a3919a4151f873b6aabdc73a7b9b8e94edb2e01ae
+  sha256: a8f9dec17282b3583337c4ef2d1a67f33072ab80dd03608041ed9e71b88dc521
 
 build:
   number: 0
