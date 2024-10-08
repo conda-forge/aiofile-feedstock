@@ -1,5 +1,5 @@
 {% set name = "aiofile" %}
-{% set version = "3.8.8" %}
+{% set version = "3.9.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiofile-{{ version }}.tar.gz
-  sha256: 41f3dc40bd730459d58610476e82e5efb2f84ae6e9fa088a9545385d838b8a43
+  sha256: e5ad718bb148b265b6df1b3752c4d1d83024b93da9bd599df74b9d9ffcf7919b
 
 build:
   number: 0
@@ -18,11 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
+    - poetry-core
   run:
-    - caio >=0.9.0,<0.10.dev0
+    - caio >=0.9.0,<0.10.0
     # Conda version of ~=0.9.0
-    - python >=3.7
+    - python >=3.8
 
 test:
   imports:
@@ -36,7 +37,7 @@ about:
   home: http://github.com/mosquito/aiofile
   summary: Asynchronous file operations.
   license: Apache-2.0
-  license_file: LICENCE
+  license_file: LICENCE.md
 
 extra:
   recipe-maintainers:
