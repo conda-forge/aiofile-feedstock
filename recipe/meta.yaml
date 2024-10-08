@@ -37,7 +37,7 @@ about:
   home: http://github.com/mosquito/aiofile
   summary: Asynchronous file operations.
   license: Apache-2.0
-  license_file: LICENCE
+  license_file: LICENCE.md
 
 extra:
   recipe-maintainers:
