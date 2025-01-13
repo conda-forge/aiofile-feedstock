@@ -1,5 +1,6 @@
 {% set name = "aiofile" %}
 {% set version = "3.9.0" %}
+{% set python_min = "3.8" %}
 
 
 package:
@@ -11,7 +12,7 @@ source:
   sha256: e5ad718bb148b265b6df1b3752c4d1d83024b93da9bd599df74b9d9ffcf7919b
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
