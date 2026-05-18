@@ -1,6 +1,5 @@
 {% set name = "aiofile" %}
 {% set version = "3.11.1" %}
-{% set python_min = "3.8" %}
 
 
 package:
@@ -20,7 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - poetry-core
+    - hatchling
   run:
     - caio >=0.9.0,<0.10.dev0
     # Conda version of ~=0.9.0
