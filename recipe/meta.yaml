@@ -1,6 +1,6 @@
 {% set name = "aiofile" %}
 {% set version = "3.10.0" %}
-{% set python_min = "3.8" %}
+{% set python_min = "3.11" %}
 
 
 package:
