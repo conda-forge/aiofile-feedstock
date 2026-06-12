@@ -1,5 +1,5 @@
 {% set name = "aiofile" %}
-{% set version = "3.9.0" %}
+{% set version = "3.10.0" %}
 {% set python_min = "3.8" %}
 
 
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiofile-{{ version }}.tar.gz
-  sha256: e5ad718bb148b265b6df1b3752c4d1d83024b93da9bd599df74b9d9ffcf7919b
+  sha256: 11be969b1b8ae85dba1a0d8468af2d0f031a20ab4a446176345b8eccb7bcb15d
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
