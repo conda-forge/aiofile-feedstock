@@ -20,7 +20,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - poetry-core
+    - hatchling
   run:
     - caio >=0.9.0,<0.10.0
     # Conda version of ~=0.9.0
