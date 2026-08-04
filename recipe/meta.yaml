@@ -1,5 +1,5 @@
 {% set name = "aiofile" %}
-{% set version = "3.11.1" %}
+{% set version = "3.12.1" %}
 {% set python_min = "3.11" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiofile-{{ version }}.tar.gz
-  sha256: 1f91912c6643d2a4e49ca4ae3514f0bf3867ce948a36d99a6411b8f4755f4cf9
+  sha256: d0949082c814bce07966ab34cdc497f96c27ce5e4305da86eeabf5e56eccea1e
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - python {{ python_min }}
     - hatchling
   run:
-    - caio >=0.9.0,<0.10.dev0
+    - caio >=0.12.0,<0.13.dev0
     # Conda version of ~=0.9.0
     - python >={{ python_min }}
 
